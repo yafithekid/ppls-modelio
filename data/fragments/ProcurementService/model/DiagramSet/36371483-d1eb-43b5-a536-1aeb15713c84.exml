@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProcurementService" version="4">
+  <OBJECT>
+    <ID name="ProcurementService" mc="Standard.DiagramSet" uid="36371483-d1eb-43b5-a536-1aeb15713c84"/>
+    <PID name="ProcurementService" mc="Standard.Project" uid="59f2855f-39c4-4072-9452-619b96bf6a39"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[ProcurementService]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BiddingService Interface Diagram" version="4">
+  <OBJECT>
+    <ID name="BiddingService Interface Diagram" mc="Standard.StaticDiagram" uid="68062366-c277-4b72-a17f-e2c36f44d007"/>
+    <PID name="Procurement Service" mc="Standard.Package" uid="8351c8fc-a1ea-4b9f-b18f-c381125b29e7"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">231</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[BiddingService Interface Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ServiceInterfaceDiagram" mc="Standard.Stereotype" uid="c54c1089-51fa-11df-beb4-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="59ad397c-eec7-49f3-b612-1994ba83fa79"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

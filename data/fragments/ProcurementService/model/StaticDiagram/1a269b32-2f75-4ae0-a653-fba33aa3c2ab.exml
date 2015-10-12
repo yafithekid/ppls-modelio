@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProposalService Interface diagram" version="4">
+  <OBJECT>
+    <ID name="ProposalService Interface diagram" mc="Standard.StaticDiagram" uid="1a269b32-2f75-4ae0-a653-fba33aa3c2ab"/>
+    <PID name="Procurement Service" mc="Standard.Package" uid="8351c8fc-a1ea-4b9f-b18f-c381125b29e7"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">258</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[ProposalService Interface diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ServiceInterfaceDiagram" mc="Standard.Stereotype" uid="c54c1089-51fa-11df-beb4-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="22b54b2a-8f84-420a-822c-682b77191267"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Service Interface diagram is dedicated to model Service Interfaces, Providers, Consumers and their relationships]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

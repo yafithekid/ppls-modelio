@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Proposal Service Message diagram" version="4">
+  <OBJECT>
+    <ID name="Proposal Service Message diagram" mc="Standard.StaticDiagram" uid="c738e7c0-dc8b-40d5-ae7a-756adb784d79"/>
+    <PID name="Procurement Service" mc="Standard.Package" uid="8351c8fc-a1ea-4b9f-b18f-c381125b29e7"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">199</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Proposal Service Message diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="MessageDiagram" mc="Standard.Stereotype" uid="1496037e-e4a6-11de-a5c8-001302895b2b"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="bdf812bd-ff8d-45ba-b967-cd7954651bf8"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

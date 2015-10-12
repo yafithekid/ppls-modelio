@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Bidder Participant diagram" version="4">
+  <OBJECT>
+    <ID name="Bidder Participant diagram" mc="Standard.StaticDiagram" uid="144532f1-6ee0-435b-9f67-522f6a72a86b"/>
+    <PID name="Procurement Service" mc="Standard.Package" uid="8351c8fc-a1ea-4b9f-b18f-c381125b29e7"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">180</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Bidder Participant diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ParticipantDiagram" mc="Standard.Stereotype" uid="e308d9bc-2d0f-11df-8be7-001302895b2b"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="0e295131-6afc-489f-9b71-78b22a4d2ead"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

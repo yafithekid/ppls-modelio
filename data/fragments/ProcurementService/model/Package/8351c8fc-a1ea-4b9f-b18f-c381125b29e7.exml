@@ -1,0 +1,516 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Procurement Service" version="4">
+  <OBJECT>
+    <ID name="Procurement Service" mc="Standard.Package" uid="8351c8fc-a1ea-4b9f-b18f-c381125b29e7"/>
+    <PID name="ProcurementService" mc="Standard.Project" uid="59f2855f-39c4-4072-9452-619b96bf6a39"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Procurement Service]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="Procurement Service Services Architecture" mc="Standard.Collaboration" uid="a1b47be0-cb76-4af6-be04-179f653cffd9"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Procurement Service Services Architecture]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedCollaborationUse">
+              <OBJECT>
+                <ID name="bs" mc="Standard.CollaborationUse" uid="3aaef1a7-9eaf-4e82-a51d-70df181506d5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[bs]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <REFOBJ>
+                      <ID name="BiddingService" mc="Standard.Collaboration" uid="35c3eafb-5110-4ed8-bd28-a42b2503c64d"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="RoleBinding">
+                    <OBJECT>
+                      <ID name="Binding" mc="Standard.Binding" uid="0a6802ea-cf06-4dce-92c6-a1f150aa7c2f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Binding]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="2147fbd3-7489-4d80-ad27-063b592f1f41"/>
+                          </REFOBJ>
+                        </LINK>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID name="bidder" mc="Standard.BindableInstance" uid="945c52d6-b338-4e9f-957b-a21e7552e212"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Binding" mc="Standard.Binding" uid="7718df9b-8f83-446e-978c-849b3aa30b9c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Binding]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="2147fbd3-7489-4d80-ad27-063b592f1f41"/>
+                          </REFOBJ>
+                        </LINK>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID name="viewer" mc="Standard.BindableInstance" uid="da920996-87e2-4e72-9390-a6623b600b20"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Binding" mc="Standard.Binding" uid="ee233778-9d79-4036-a622-d8e2d6f1c730"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Binding]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="producer" mc="Standard.BindableInstance" uid="d963ae48-4132-4f26-a6ee-44222358350e"/>
+                          </REFOBJ>
+                        </LINK>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID name="is" mc="Standard.BindableInstance" uid="ae042e3c-c6c4-44b4-aa8f-04941b5c4d02"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ps" mc="Standard.CollaborationUse" uid="2b206196-fc4b-4380-8d9f-c8699578e797"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ps]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <REFOBJ>
+                      <ID name="ProposalService" mc="Standard.Collaboration" uid="a65328da-76b8-439a-a92c-23217f0f5c9d"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="RoleBinding">
+                    <OBJECT>
+                      <ID name="Binding" mc="Standard.Binding" uid="57b35eb6-9dd2-4350-be9d-16643ed68cb9"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Binding]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="2147fbd3-7489-4d80-ad27-063b592f1f41"/>
+                          </REFOBJ>
+                        </LINK>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID name="bidder" mc="Standard.BindableInstance" uid="945c52d6-b338-4e9f-957b-a21e7552e212"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Binding" mc="Standard.Binding" uid="dd0d338f-0892-45e1-8fb4-974a03640a01"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Binding]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="2147fbd3-7489-4d80-ad27-063b592f1f41"/>
+                          </REFOBJ>
+                        </LINK>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID name="viewer" mc="Standard.BindableInstance" uid="da920996-87e2-4e72-9390-a6623b600b20"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Binding" mc="Standard.Binding" uid="e6a20163-14f8-477c-8771-c03dc92c946a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Binding]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="producer" mc="Standard.BindableInstance" uid="d963ae48-4132-4f26-a6ee-44222358350e"/>
+                          </REFOBJ>
+                        </LINK>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID name="is" mc="Standard.BindableInstance" uid="ae042e3c-c6c4-44b4-aa8f-04941b5c4d02"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="is" mc="Standard.BindableInstance" uid="ae042e3c-c6c4-44b4-aa8f-04941b5c4d02"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[is]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Issuer" mc="Standard.Class" uid="8626fe75-1310-49d2-aa02-e9a5c61c1a87"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="viewer" mc="Standard.BindableInstance" uid="da920996-87e2-4e72-9390-a6623b600b20"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[viewer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Viewer" mc="Standard.Class" uid="53ad9efe-6769-4c41-bd77-f7bd18e4169d"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="bidder" mc="Standard.BindableInstance" uid="945c52d6-b338-4e9f-957b-a21e7552e212"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[bidder]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Bidder" mc="Standard.Class" uid="f4228006-a8da-48dc-b045-703469492217"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ServicesArchitecture" mc="Standard.Stereotype" uid="01ec25d4-0000-16c2-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BiddingService" mc="Standard.Collaboration" uid="35c3eafb-5110-4ed8-bd28-a42b2503c64d"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[BiddingService]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="bs" mc="Standard.BindableInstance" uid="7874a82d-27b6-41ac-9e57-2e811d1e4760"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[bs]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="BidSender" mc="Standard.Interface" uid="f8f25cdc-2994-4d97-97e8-4c032d509412"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Dependency" uid="18937796-ea59-4ed8-87ea-ceb22a832c3c"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="br" mc="Standard.BindableInstance" uid="27bcadd5-1aa7-4bf1-bc1d-72b1393f5c74"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="br" mc="Standard.BindableInstance" uid="27bcadd5-1aa7-4bf1-bc1d-72b1393f5c74"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[br]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="BidReceiver" mc="Standard.Interface" uid="591bb3dd-daf5-43c5-a77c-cb08289a2a61"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ProposalService" mc="Standard.Collaboration" uid="a65328da-76b8-439a-a92c-23217f0f5c9d"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ProposalService]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="pp" mc="Standard.BindableInstance" uid="d74476af-25c5-464c-81c5-b6a62b40fe40"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[pp]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="ProposalPlacer" mc="Standard.Interface" uid="61cfd2aa-b8e9-4d5b-a2e2-b2031ff91b6b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="pt" mc="Standard.BindableInstance" uid="6195749a-153b-405c-af66-19efb4f24483"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[pt]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="ProposalTaker" mc="Standard.Interface" uid="0e3330c3-7c28-4df1-a726-05a50342845a"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Dependency" uid="a54d01d4-b97c-4a1d-a016-63fe59a96782"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="pp" mc="Standard.BindableInstance" uid="d74476af-25c5-464c-81c5-b6a62b40fe40"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Bidder" mc="Standard.Class" uid="f4228006-a8da-48dc-b045-703469492217"/>
+        <COMPID name="Issuer" mc="Standard.Class" uid="8626fe75-1310-49d2-aa02-e9a5c61c1a87"/>
+        <COMPID name="Viewer" mc="Standard.Class" uid="53ad9efe-6769-4c41-bd77-f7bd18e4169d"/>
+        <COMPID name="Procuring" mc="Standard.Class" uid="893affa0-4ba8-4bed-a524-9316267cbb0c"/>
+        <COMPID name="Proposing" mc="Standard.Class" uid="4206d503-1618-4e9a-aab8-6e58cc234a6a"/>
+        <COMPID name="Bidding" mc="Standard.Class" uid="a53f669b-68eb-4235-a1d9-d8df5c95bffb"/>
+        <COMPID name="ProposalPlacer" mc="Standard.Interface" uid="61cfd2aa-b8e9-4d5b-a2e2-b2031ff91b6b"/>
+        <COMPID name="ProposalTaker" mc="Standard.Interface" uid="0e3330c3-7c28-4df1-a726-05a50342845a"/>
+        <COMPID name="BidReceiver" mc="Standard.Interface" uid="591bb3dd-daf5-43c5-a77c-cb08289a2a61"/>
+        <COMPID name="BidSender" mc="Standard.Interface" uid="f8f25cdc-2994-4d97-97e8-4c032d509412"/>
+        <COMPID name="ProposalServiceInterface" mc="Standard.Class" uid="a3b8519d-dbfe-45d6-b8cb-659246e594d1"/>
+        <COMPID name="BiddingServiceInterface" mc="Standard.Class" uid="e45df190-1577-47b4-b9ce-118dfefab763"/>
+        <COMPID name="Propose" mc="Standard.Class" uid="a47f9529-f4fd-461c-8494-401bec8e3eed"/>
+        <COMPID name="ReadProposal" mc="Standard.Class" uid="bbfc0380-aebb-49db-9edc-3aa63cd969d2"/>
+        <COMPID name="ProposalList" mc="Standard.Class" uid="b1f69d9f-f6fc-4606-84f2-af77b073b736"/>
+        <COMPID name="ListProposal" mc="Standard.Class" uid="11076814-da12-40e8-b2cb-b0078b16e6b1"/>
+        <COMPID name="Proposal" mc="Standard.Class" uid="a3941578-df65-4f9b-9203-4933d95b8cc2"/>
+        <COMPID name="ProposedItem" mc="Standard.Class" uid="f61ebd4d-4b72-43c2-8621-6c4ea331dc79"/>
+        <COMPID name="Item" mc="Standard.Class" uid="c19135b0-cd9e-4e7b-aa68-866554133c2f"/>
+        <COMPID name="PlaceBid" mc="Standard.Class" uid="bc2531f1-e458-4a7b-a41c-0063fee3d9f0"/>
+        <COMPID name="ListBid" mc="Standard.Class" uid="fd0e1532-1eed-4b1a-9184-366ee9ea5335"/>
+        <COMPID name="AutoAccept" mc="Standard.Class" uid="c88511b0-d3f7-4d4b-979a-fc3792e2d5cf"/>
+        <COMPID name="AcceptBid" mc="Standard.Class" uid="9b73c53a-d816-4555-88fc-f1b05b17a282"/>
+        <COMPID name="ReadBid" mc="Standard.Class" uid="6079e56f-9294-4271-8445-0220e0db446f"/>
+        <COMPID name="Bid" mc="Standard.Class" uid="2ab1eb02-d8af-4abd-b156-2499cc0dfac2"/>
+        <COMPID name="BidProposedItem" mc="Standard.Class" uid="51060c84-6ba4-444b-bde5-cef4e7a8762b"/>
+        <OBJECT>
+          <ID name="AutoAcceptType" mc="Standard.Enumeration" uid="38cb2bc9-d87f-42aa-a02d-a9ab552d6f6a"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[AutoAcceptType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="LOWEST_COST" mc="Standard.EnumerationLiteral" uid="4ff34591-5716-4844-afd8-65cb56feb0de"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[LOWEST_COST]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Note" uid="2eae6de7-5ad6-4f27-afd7-2b7302250d56"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                        <ATT name="MimeType"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="FASTEST_FINISHED_DATE" mc="Standard.EnumerationLiteral" uid="9a7582d9-c061-4147-a52b-8d535a718e38"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FASTEST_FINISHED_DATE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Service Contract" mc="Standard.Collaboration" uid="4c527429-ef2b-4a06-b891-7883834bdb8e"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Service Contract]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="producer" mc="Standard.BindableInstance" uid="d963ae48-4132-4f26-a6ee-44222358350e"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[producer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Provider" mc="Standard.Interface" uid="4dd06c8d-fbf0-4e4e-a170-ba0d198254d8"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="consumer" mc="Standard.BindableInstance" uid="2147fbd3-7489-4d80-ad27-063b592f1f41"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[consumer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Consumer" mc="Standard.Interface" uid="3c187146-2513-4c9f-b494-bc3717fd5dee"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Consumer" mc="Standard.Interface" uid="3c187146-2513-4c9f-b494-bc3717fd5dee"/>
+        <COMPID name="Provider" mc="Standard.Interface" uid="4dd06c8d-fbf0-4e4e-a170-ba0d198254d8"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="15c835e8-2c43-4495-a5c7-9f6352e6557b"/>
+        <COMPID name="Procurement Services Architecture diagram" mc="Standard.StaticDiagram" uid="c003d20f-0612-47de-82f7-5bdfe027f596"/>
+        <COMPID name="Service Contract diagram" mc="Standard.StaticDiagram" uid="f1be1bd8-a36e-444d-afd1-b2e5fcfb8c6c"/>
+        <COMPID name="Capability diagram" mc="Standard.StaticDiagram" uid="7d8d8f45-dbe8-42a0-817f-753bb6962631"/>
+        <COMPID name="ProposalService Contract diagram" mc="Standard.StaticDiagram" uid="bda0700a-e99d-41fa-a868-20f8f8ea2043"/>
+        <COMPID name="BiddingService Contract diagram" mc="Standard.StaticDiagram" uid="ec151794-fbbb-4c91-be94-85cec64cf5bf"/>
+        <COMPID name="ProposalService Interface diagram" mc="Standard.StaticDiagram" uid="1a269b32-2f75-4ae0-a653-fba33aa3c2ab"/>
+        <COMPID name="BiddingService Interface Diagram" mc="Standard.StaticDiagram" uid="68062366-c277-4b72-a17f-e2c36f44d007"/>
+        <COMPID name="Issuer Participant Diagram" mc="Standard.StaticDiagram" uid="6cf20e83-1dcf-46ba-a7b1-4bbc2164aa8a"/>
+        <COMPID name="Viewer Participant diagram" mc="Standard.StaticDiagram" uid="91edc9f5-d330-435d-9277-d8a8373e9549"/>
+        <COMPID name="Bidder Participant diagram" mc="Standard.StaticDiagram" uid="144532f1-6ee0-435b-9f67-522f6a72a86b"/>
+        <COMPID name="Proposal Service Message diagram" mc="Standard.StaticDiagram" uid="c738e7c0-dc8b-40d5-ae7a-756adb784d79"/>
+        <COMPID name="Bidding Service Message diagram" mc="Standard.StaticDiagram" uid="6ec8c7af-4e43-483d-887a-6e0e5e0aa23a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

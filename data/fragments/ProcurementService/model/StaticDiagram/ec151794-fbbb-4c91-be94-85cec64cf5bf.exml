@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BiddingService Contract diagram" version="4">
+  <OBJECT>
+    <ID name="BiddingService Contract diagram" mc="Standard.StaticDiagram" uid="ec151794-fbbb-4c91-be94-85cec64cf5bf"/>
+    <PID name="Procurement Service" mc="Standard.Package" uid="8351c8fc-a1ea-4b9f-b18f-c381125b29e7"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">272</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[BiddingService Contract diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ServiceContractDiagram" mc="Standard.Stereotype" uid="0208014c-0000-3501-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="1ce46268-1149-4401-92a0-8b8c5a7a089d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

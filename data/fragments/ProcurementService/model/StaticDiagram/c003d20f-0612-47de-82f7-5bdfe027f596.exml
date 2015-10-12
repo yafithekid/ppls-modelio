@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Procurement Services Architecture diagram" version="4">
+  <OBJECT>
+    <ID name="Procurement Services Architecture diagram" mc="Standard.StaticDiagram" uid="c003d20f-0612-47de-82f7-5bdfe027f596"/>
+    <PID name="Procurement Service" mc="Standard.Package" uid="8351c8fc-a1ea-4b9f-b18f-c381125b29e7"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">423</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Procurement Services Architecture diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ServiceArchitectureDiagram" mc="Standard.Stereotype" uid="0208014c-0000-34f7-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="b11c35c2-aa14-40bb-9e53-78ae88de523b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
